@@ -26,3 +26,10 @@ I work for a company and do network support. There are a lot of services for whi
 **Soft skills**
 
 - Lead of network NOC team.
+
+---
+
+**Language:**
+
+- Russian - native
+- English - basic
