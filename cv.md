@@ -7,9 +7,10 @@
 ---
 
 **Contacts:**
-telegram:@popovma85
-mail:popovma85@gmail.com
-github:@popovma85
+
+- telegram:@popovma85
+- mail:popovma85@gmail.com
+- github:@popovma85
 
 ---
 
