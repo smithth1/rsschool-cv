@@ -1,7 +1,7 @@
 # Mikhail Popov
 
 **Email:** mapopov85@protonmail.com  
-**TG:** @mapopov85
+**TG:** @mapopov85  
 **Location:** Russia Federation   
 **GitHub:** [github.com/smithth1](https://github.com/smithth1)
 
@@ -15,8 +15,8 @@ Network engineer. Have no expirience with frontend developing. I want to learn t
 
 ## Skills
 
-- Python network automation
-- Cisco Certified Network Professional, Data Center, Security
+- Python network automation  
+- Cisco Certified Network Professional, Data Center, Security 
 
 ---
 
@@ -30,7 +30,7 @@ Network engineer. Have no expirience with frontend developing. I want to learn t
 ---
 
 ## Education
-**Advanced training of Python developer**
+**Advanced training of Python developer**  
 *Peter the Great Polytechnic University*
 
 **Cisco CCNP Tracks**
