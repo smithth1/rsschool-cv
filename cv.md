@@ -42,7 +42,7 @@ Network engineer. Have no expirience with frontend developing. I want to learn t
 
 ## Languages
 
-- Russian (Fluent)
+- Russian (Native)
 - English (Intermediate)
 
 ---
