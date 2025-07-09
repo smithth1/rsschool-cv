@@ -1,0 +1,10 @@
+
+  .qa {
+    display: flex;
+  }
+  .question{
+    width:40%;
+  }
+  .answer{
+    width:60%;
+  }
