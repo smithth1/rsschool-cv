@@ -38,7 +38,6 @@
       height: 100%;
       background: #fff;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
     }
 
     .main-left {
@@ -50,7 +49,6 @@
       background: #1e1e2f;
       color: white;
       padding: 20px;
-      overflow: hidden;
       text-align: center;
       
     }
@@ -64,8 +62,27 @@
       flex: 1;
       overflow-y: auto;
       padding: 20px;
+      overflow-y: auto;
     }
 
+    .main-right-content ul {
+      margin-right: 10px;
+      color: #333;
+      text-decoration: none;
+      font-size: 14px;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .main-right-content li {
+      margin-bottom: 5px;
+      margin-right: 15px;
+    }
+
+    .main-right-content ul ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
     img.profile-photo {
       width: 100%;
       border-radius: 8px;
@@ -74,25 +91,53 @@
       border-radius: 50%;
       border: 2px solid #ccc;
     }
+
     .personal-info p {
       font-size: 14px;
       margin-bottom: 8px;
     }
+
     .personal-signature p {
       font-size: 14px;
       margin-bottom: 8px;
       text-align: end;
     }
-    nav {
-      margin-top: 10px;
+
+    .profile-ul {
+      list-style-type: none;
+      padding: 0;
     }
 
-    nav a {
+    .profile-li {
+      margin-bottom: 5px;
+    }
+
+    nav {
+      margin-top: 10px;
+    
+    }
+
+    .nav-ul {
+      display: flex;
+      justify-content: right;
       margin-right: 10px;
       color: #333;
       text-decoration: none;
       font-size: 14px;
+      list-style-type: none;
+      padding: 0;
     }
+
+    .nav-li {
+      margin-bottom: 5px;
+      margin-right: 15px;
+    }
+
+    .nav-li a {
+      color: inherit;
+      text-decoration: none;
+    }
+
     .section {
       margin-bottom: 20px;
     }
@@ -102,6 +147,7 @@
       border-bottom: 1px solid #ccc;
       margin-bottom: 10px;
     }
+
     .footer-content {
       display: flex;
       justify-content: space-between;
@@ -126,4 +172,19 @@
       display: inline-block;
       object-fit: contain;
       color: black;
+    }
+
+    @media (max-width: 768px) {
+      .cv-container {
+        flex-direction: column;
+        width: 90vw;
+      }
+
+      .cv-left, .cv-right {
+        width: 100%;
+      }
+
+      .cv-left {
+        height: auto;
+      }
     }

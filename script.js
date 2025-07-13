@@ -12,4 +12,4 @@
   // set birts date
   const birthDate = '1985-12-10'; // format YYYY-MM-DD
   const age = calculateAge(birthDate);
-  document.getElementById('profile-age').textContent =  age + ' years old';
+  document.getElementById('profile-age').textContent =  age ;
